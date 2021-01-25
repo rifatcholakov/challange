@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@600&display=swap");
+@font-face {
+  font-family: "Saira-ExtraCondensed-Bold";
+  src: url("/assets/src/fonts/Saira-ExtraCondensed-Bold.ttf.woff") format("woff"), url("/assets/src/fonts/Saira-ExtraCondensed-Bold.ttf.svg#Saira-ExtraCondensed-Bold") format("svg"), url("/assets/src/fonts/Saira-ExtraCondensed-Bold.ttf.eot"), url("/assets/src/fonts/Saira-ExtraCondensed-Bold.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Saira-ExtraCondensed-Bold", sans-serif; }
+
+.clock {
+  border: 10px solid #6386d8;
+  width: 450px;
+  height: 450px;
+  border-radius: 80px;
+  background: #3f4047;
+  overflow: hidden; }
+  .clock .layer-1 {
+    background: #141417;
+    box-shadow: inset 0px 0px 2px 2px #000000;
+    border-radius: 70px;
+    background: #202129;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; }
+  .clock .layer-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    overflow: hidden;
+    padding: 2px 10px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: inset 0px -13px 4px 1px #3f4047; }
+  .clock .line {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    left: 0;
+    top: 49%;
+    background: black; }
+  .clock .box-time {
+    flex: 0 0 50%;
+    background: #202129;
+    border: 5px solid black;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 170px;
+    padding: 18px;
+    box-shadow: 2px 2px 2px 2px solid red; }
+
+/*# sourceMappingURL=master.css.map */
